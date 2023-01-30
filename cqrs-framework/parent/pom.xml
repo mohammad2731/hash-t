@@ -10,11 +10,37 @@
     <packaging>pom</packaging>
 
     <properties>
+        <spring-framework.version>5.3.25</spring-framework.version>
         <junit.version>5.9.2</junit.version>
+        <assertj.version>3.24.2</assertj.version>
     </properties>
 
     <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.hash-t.cqrs-framework</groupId>
+                <artifactId>cqrs-essentials</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring-framework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>${spring-framework.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.assertj</groupId>
+                <artifactId>assertj-core</artifactId>
+                <version>${assertj.version}</version>
+                <scope>test</scope>
+            </dependency>
 
+        </dependencies>
     </dependencyManagement>
 
     <dependencies>
@@ -24,7 +50,6 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
     <build>
