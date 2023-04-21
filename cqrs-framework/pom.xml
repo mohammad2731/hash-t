@@ -14,8 +14,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>parent</module>
-        <module>cqrs-essentials</module>
-        <module>cqrs-core-spring</module>
+        <module>cqrs-core</module>
+        <module>cqrs-spring</module>
     </modules>
 
 
