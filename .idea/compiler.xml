@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cqrs-core" />
-        <module name="cqrs-spring" />
+        <module name="processor-spring" />
+        <module name="processor-sample-core" />
+        <module name="processor-sample-infra" />
+        <module name="processor-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
