@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>hash-t-framework</module>
+        <module>hash-t-khar</module>
     </modules>
 
 
