@@ -8,12 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="processor-spring" />
         <module name="processor-sample-core" />
+        <module name="khar-core" />
         <module name="processor-sample-infra" />
         <module name="processor-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="untitled" target="1.5" />
+      <module name="untitled" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
